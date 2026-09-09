@@ -1,0 +1,4 @@
+google-adk[mcp]
+python-dotenv
+reportlab
+parallel-web

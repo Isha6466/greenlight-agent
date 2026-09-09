@@ -1,0 +1,8 @@
+.env
+*.env
+output/
+venv/
+__pycache__/
+*.pyc
+.adk/
+.DS_Store
