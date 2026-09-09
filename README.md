@@ -76,29 +76,6 @@ agentic_cinema/
 
 ## 🚀 Quickstart & Local Setup
 
-
-1. Clone & Set Up Environment
-git clone [https://github.com/Isha6466/greenlight-agent](https://github.com/Isha6466/greenlight-agent.git)
-cd greenlight-agent
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-2. Configure Credentials
-Copy .env.example to .env and fill in your keys:
-cp .env.example .env
-
-GEMINI_API_KEY=your_gemini_api_key
-PARALLEL_API_KEY=your_parallel_api_key
-
-
-3. Launch Development UI
-Run the local ADK interface:
-
-adk web
-
-## 🚀 Quickstart & Local Setup
-
 ### 1. Clone & Set Up Environment
 ```bash
 git clone [https://github.com/Isha6466/greenlight-agent.git](https://github.com/Isha6466/greenlight-agent.git)
@@ -106,20 +83,24 @@ cd greenlight-agent
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-
-2. Configure Credentials
+### 2. Configure Credentials
+```bash
 Copy .env.example to .env and fill in your keys:
 cp .env.example .env
 
 GEMINI_API_KEY=your_gemini_api_key
 PARALLEL_API_KEY=your_parallel_api_key
+```
 
-3. Launch Development UI
+### 3. Launch Development UI
+```bash
 Run the local ADK interface:
 adk web
 Open http://localhost:8000 in your browser. All generated PDF briefs are deterministically exported to the local output/ directory.
+```
 
-📄 License
+## 📄 License
 MIT License
 Once you update that section and ensure `.env.example` only has placeholders, you're clear to push.
